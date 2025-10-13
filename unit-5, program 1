@@ -1,0 +1,10 @@
+1) Create a series of plots to analyze a given dataset.
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Sample data
+x = np.linspace(0, 2 * np.pi, 100)
+y = np.sin(x)
+y2 = np.cos(x)
+y3 = np.sin(x) * np.cos(x)
+
