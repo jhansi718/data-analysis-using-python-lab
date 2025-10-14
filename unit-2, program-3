@@ -13,10 +13,7 @@ class Dog(Animal):
     def make_sound(self): 
         return "Woof! Woof!" 
 class Cat(Animal): 
-Date: Roll No.:           
- 
- 
-Programming with C++ Lab                                                                                                
+                                                                                               
     def make_sound(self): 
         return "Meow!" 
 class Bird(Animal): 
