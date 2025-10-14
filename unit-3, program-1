@@ -1,0 +1,27 @@
+
+Write a NumPy program using methods – info, add, array, all, greater, 
+greater_equal, less and less_equal,equal, allclose, zeros, ones, linspace, tolist.  
+a. To get help on the add function  
+b. To test whether none of the elements of a given array is zero.  
+c. To create an element-wise comparison (greater, greater_equal, less and less 
+equal, equal, equal within a tolerance) of two given arrays. 
+ 
+Program: 
+import numpy as np 
+arr = np.array([1, 2, 2, 3, 4, 4, 4, 5]) 
+print("Original array:", arr) 
+print("\nUsing repr():") 
+Date: Roll No.:           
+ 
+ 
+Programming with C++ Lab                                                                                     Page No.:                   
+print(repr(arr)) 
+print("\nUsing count():") 
+arr_list = arr.tolist() 
+print("Count of 4 in array:", arr_list.count(4)) 
+print("\nUsing np.bincount():") 
+print("Element counts (by index):", np.bincount(arr)) 
+print("\nUsing np.unique():") 
+unique_elements, counts = np.unique(arr, return_counts=True) 
+print("Unique elements:", unique_elements) 
+print("Counts:", counts) 
