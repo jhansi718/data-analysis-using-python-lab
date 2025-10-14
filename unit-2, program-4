@@ -16,10 +16,7 @@ def safe_divide(numerator, denominator):
         print(f"An unexpected error occurred: {e}") 
  Demonstrating error handling 
 print("\n--- Error Handling Demonstration ---") 
-Date: Roll No.:           
- 
- 
-Programming with C++ Lab                                                                                                  
+                                                                                               
 safe_divide(10, 2) 
 safe_divide(10, 0) 
 safe_divide(5, "abc") 
