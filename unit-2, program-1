@@ -10,10 +10,9 @@ class Car:
         self.is_started = False 
     def start(self): 
         if not self.is_started: 
-Date: Roll No.:           
+          
  
- 
-Programming with C++ Lab                                                                                     Page No.:                   
+                                                                                                
             self.is_started = True 
             print(f"The {self.year} {self.make} {self.model} is starting.") 
         else: 
