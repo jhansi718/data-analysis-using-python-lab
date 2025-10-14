@@ -1,0 +1,8 @@
+ 
+Write a program that asks the user for a weight in kilograms and converts it to 
+pounds. There are 2.2 pounds in a kilogram. 
+Program: 
+kilo_grams = float(input('Enter weight in Kg to Convert into pounds:')) 
+pounds = kilo_grams * 2.2 
+print(kilo_grams,' Kilograms =', pounds,' Pounds') 
+ 
