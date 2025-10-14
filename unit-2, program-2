@@ -19,7 +19,7 @@ class cat(Animal):
 Date: Roll No.:           
  
  
-Programming with C++ Lab                                                                                     Page No.:                   
+Programming with C++ Lab                                                                                                   
         return f"{self.name} says: Meow! Meow!" 
     def move(self): 
         return f"{self.name} runs quietly." 
