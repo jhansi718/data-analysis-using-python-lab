@@ -1,0 +1,6 @@
+ 
+Split a string into array of characters in Python. 
+Program: 
+text = "Hello" 
+char_list = list(text) 
+print(char_list)  # Output: ['H', 'e', 'l', 'l', 'o']
