@@ -23,10 +23,7 @@ min_index = np.argmin(arr)
 print("\nMaximum Value:", max_value) 
 print("Minimum Value:", min_value) 
 print("Index of Maximum Value:", max_index) 
-Date: Roll No.:           
- 
- 
-Programming with C++ Lab                                                                                                   
+                                                                                               
 print("Index of Minimum Value:", min_index) 
 count_values = np.bincount(arr) 
 unique_values, counts = np.unique(arr, return_counts=True) 
