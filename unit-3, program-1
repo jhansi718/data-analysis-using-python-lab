@@ -14,7 +14,7 @@ print("\nUsing repr():")
 Date: Roll No.:           
  
  
-Programming with C++ Lab                                                                                     Page No.:                   
+Programming with C++ Lab                                                                                                    
 print(repr(arr)) 
 print("\nUsing count():") 
 arr_list = arr.tolist() 
